@@ -70,12 +70,12 @@ print('*'*5 + 'End' + '*'*5)
 
 # Program 5
 #Create a function that computes the hamming distance between two strings.
-def hamming_distanec(str1, str2):
+def hamming_distance(str1, str2):
    diff = 0
    for i in range (0, len(str1)):
        if str1[i] != str2[i]:
            diff = diff + 1
    return diff
 
-print(hamming_distanec("abcde","bcdef"))
+print(hamming_distance("abcde","bcdef"))
 print('*'*5 + 'End' + '*'*5)
